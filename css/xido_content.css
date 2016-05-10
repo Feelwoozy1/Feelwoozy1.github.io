@@ -1,0 +1,98 @@
+/*_________________________#indexContent______________________________*/
+ #indexContent {width: 900px; min-height:320px; height: auto; margin:0 auto; background-color:#f06; padding: 20px 30px; }
+
+.in_con_head{width: 100%; height: 22px; margin-bottom: 18px;}
+.in_con_head> h1{width: 60px; height: 22px; margin-right: 8px; float: left;
+                font-size:1.375rem; font-style: italic; color:#fff; text-align: right; line-height: 1.375rem; line-height: 22px; }
+.in_con_head>.line{width: calc(100% - 116px); float: left; height: 10px; border-bottom: 1px solid #fff; float: left;}
+.in_con_head>.more{width: 40px; height: 22px; margin-left: 8px; float: right; }
+.in_con_head>.more>a>i{font-size:22px; font-size:1.375rem; color:#fff; transition: all 0.5s linear;}
+
+/*
+
+transition-property:;
+transition-duration:;
+transition-timing-function:;
+transition-delay:;
+
+한번에쓰기: transition:propertys duration timimg-function delay;
+        transition:무엇 시간 지속성 몇초뒤 ;
+
+*/
+.in_con_head>.more:hover>a>i{transform: rotate(45deg);}
+
+/*
+transform: 변형; 
+    rotate(); \ rotateX() \ rotateY() \ rotateZ() \ 각도(deg단위)
+    scale(); \ scaleX() \ scaleY() \ 크기비율 1을 100%로 인지
+    skew(); \ skewX() \ skewY() \ 도형의 비틀기
+    translate() \ translateX() \ translateY() \ 이동
+*/
+
+
+
+
+.in_con_nar{width: 100%; height: 280px;  margin-bottom: 20px;}
+.in_con_nar>.in_con_nav_box {width: 125px; height: 240px; float: left; 
+            padding:20px 34px 20px 220px; background-image: url(../img/main/article/article_box_01.png);
+            background-repeat: no-repeat;
+            background-position: center;}
+.in_con_nar::after{content:""; display: block; clear:both;}
+.in_con_nar>.in_con_nav_box>ul{width: 100%; height: 100%;}
+.in_con_nar>.in_con_nav_box>ul>li{width: 100%; height: 40px;} 
+.in_con_nar>.in_con_nav_box>ul>li>a{line-height: 40px; line-height: 2.5rem; color: #fff; font-size: 1.1667rem; text-decoration: underline;}
+.in_con_nar>.in_con_nav_box>ul>li>a:hover{text-decoration: none; font-weight: bold; letter-spacing: -0.06rem;}
+
+
+
+
+.in_con_nar>.in_con_nar_box {width: 520px; height: 280px;  float: left;}
+.nar_img {width: 242px; height: 100%; 
+    background-image: url(../img/main/article/article_box_02.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;}
+.nar_text {width: 238px; height: 240px; 
+    background-color: #f06;
+    -webkit-background-image:linear-gradient(-135deg, #f06, #707);
+    -moz-background-image:linear-gradient(-135deg, #f06, #707);
+    -ms-background-image:linear-gradient(-135deg, #f06, #707);
+    -o-background-image:linear-gradient(-135deg, #f06, #707);
+    background-image:linear-gradient(-135deg, #f06, #707);
+    float: left;
+    padding:20px;
+    overflow: hidden;
+    color:#fff;}
+/*
+벤더프리픽스는?
+
+-정식 웹표준으로 승인되지 않았거나 브라우저가 공식적으로 지원하지 않는 경우 강제적으로 사용되도록 만드는 명령어
+    단, 브라우저 내부에 해당하는 기능이 내장되어있지 않으면 작동하지 않는다.
+
+    -webkit-: 크롬 사파리 스윙브라우저
+    -epub- : 전자책
+    -moz-: 파이어폭스
+    -ms- : 익스플로러
+    -o- : 오페라
+*/
+
+.nar_text>p{width: 100%; height:100%; color:#fff; overflow-y: scroll; padding-right: 50%;}
+/* 패딩을 주는이유는 스크롤이 꼴보기 싫어서 오른쪽으로 밀기위해 꼼수(?).. 감싼 태그에서 overflow:hidden 주면 오른쪽으로 밀어진 스크롤이 안보임 */
+
+/* overflow 넘치는것에 대해서
+    :auto 
+    :scroll
+    :visible
+
+  overflow-x : 가로만 컨트롤
+  overflow-y : 세로만 컨트롤
+
+*/
+
+.nar_text>p{color:inherit; font-weight: bold;}
+
+
+
+
+
+

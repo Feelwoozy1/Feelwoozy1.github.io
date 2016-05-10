@@ -1,0 +1,66 @@
+/*join.css*/
+#join{width: 620px; height: auto;   }
+#join>form{width: 100%; height: 100%;}
+#join>form>fieldset{width: 100%; height: auto; border-bottom: 1px solid #595959; 
+    padding-bottom: 15px; margin-bottom: 24px; }
+
+#join .form_01{}
+#join .form_02{}
+#join .form_03{border-bottom: 0;}
+
+#join .form_04{width: 100%; height: 40px; border-bottom: 0; margin: 0; padding: 0;}
+
+#join>form>fieldset>dl{width: 100%; height: 30px; margin-bottom: 10px; }
+#join>form>fieldset>dl>dt{width: 110px; height: 100%;  padding-left: 7px; float: left; background-color: #ddd;}
+.j_img{background-image: url("../img/join/join/join_icon.png"); background-repeat: no-repeat;}
+
+ dt>i{width: 16px; height: 20px; margin: 5px 7px; display: block; float: left; }
+ dt>label{width: 60px; height: 20px; margin: 5px; display: block; float: left; }
+ dt>label>span, dd>button>span{width: 0; height: 0; display: block; overflow: hidden;}
+ dd>input{width: 240px; height: 30px; border: 1px solid #ddd; box-sizing: border-box; margin-right: 20px; text-indent: 0.06rem; float:left; border-radius: 4px;}
+ dd>button{width: 100px; height: 30px; cursor: pointer; float:left; }
+ 
+
+#join>form>fieldset>dl>dd{width: 500px; height: 100%; float: left; background-color: #fac;}
+
+/*____________join_1_____________*/
+.join_1 dt>i{background-position:-50px 0px;}
+.join_1 dt>label{background-position: -70px 0;}
+.join_1 dd>button{background-position:-135px -160px;}
+
+/*____________join_2_____________*/
+.join_2 dt>i{background-position:-50px -20px;}
+.join_2 dt>label{background-position: -70px -20px;}
+.join_2 dd>span{width: 220px; height: 15px; display: block; float:left; margin-top: 8px; background-position:-280px 0; }
+
+/*____________join_3_____________*/
+.join_3 dt>i{background-position:-50px -40px;}
+.join_3 dt>label{background-position: -70px -40px;}
+.join_3 dd>span{width: 230px; height: 15px; display: block; float:left; margin-top: 8px; background-position:-280px -20px;}
+
+/*____________join_4_____________*/
+.join_4 dt>i{background-position:-50px -60px;}
+.join_4 dt>label{background-position: -70px -60px;}
+.join_4 dd>span{width: 230px; height: 15px; display: block; float:left; margin-top: 8px; background-position:-280px -40px;}
+
+
+/*____________join_5_____________*/
+.join_5 dt>i{background-position:-50px -80px;}
+.join_5 dt>label{background-position: -70px -80px;}
+.join_5 dd>button{background-position:-135px -160px;}
+
+/*____________join_19_____________*/
+.join_9 dt>i{background-position:-50px -160px;}
+.join_9 dt>label{background-position: -70px -160px;}
+.join_9 dd>input{width: 100px; }
+.join_9 dd>input:last-of-child{width: 100px; margin-right: 30px; }
+.join_9 dd>.line_bar{width: 10px; margin: 0 10px; margin-right: 10px; height: 14px; 
+    border-bottom: 1px solid #595959; float: left;}
+.join_9 dd>button{background-position:-240px -160px; margin-left: 30px;}
+.join_9 dd>label{width: 0; height: 0; display: block; overflow: hidden;}
+
+
+
+.form_04>button{width: 140px; height: 40px; cursor: pointer;}
+button[type="submit"]{float: left; margin-left: 130px;}
+button[type="reset"]{float: right; margin-right: 130px;}
